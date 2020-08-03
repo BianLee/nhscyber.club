@@ -492,6 +492,10 @@ b, strong {
   background: #C13584;
   color: white;
 }
+#eventsGap {
+  display: inline-block; 
+}
+  
 
 
 @media (max-width: 2000px) {
@@ -574,6 +578,9 @@ b, strong {
   .profilePic {
     margin-top: -28px;
   }
+  #eventsGap {
+    display: block; 
+  }
 }
 
 @media (max-width: 820px) {
@@ -640,6 +647,7 @@ b, strong {
   .profilePic {
     margin-top: -28px;
   }
+  
 }
 @media (max-width: 1400px) {
   .icon-bar a,
